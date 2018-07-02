@@ -1,0 +1,83 @@
+{% extends "base.html.twig" %}
+
+{% block body %} 
+
+
+
+<div class="split left">
+  <div class="ab-flex align-center space-b w-left align-center">
+    <div class="">
+      <img class="h-logo w-logo" alt="logo" src="{{ asset('img/logo.png') }}" />
+    </div>
+    <div class="ab-flex ">
+    <div class="ab-flex align-end flex-col space-social ft-20">
+      <a class="markazi color-text no-line" target="_blank" href="https://www.facebook.com/alexandre.bouhand">facebook</a>
+      <a class="markazi color-text no-line" target="_blank" href="https://www.instagram.com/alexandre_bouhand/?hl=fr">instagram</a>
+      <a class="markazi color-text no-line" target="_blank" href="https://www.linkedin.com/in/alexandre-bouhand-3b736961">linkedin</a>
+    </div>
+    <div class="ab-flex flex-col ft-20 space-social txt-right pad-social">
+      <a class="markazi color-text no-line" target="_blank" href="https://www.pinterest.fr/abouhand/">pinterest</a>
+      <a class="markazi color-text no-line" target="_blank" href="https://github.com/alexandreb21000">github</a>
+      <a class="markazi color-text no-line" target="_blank" href="https://soundcloud.com/puritanrecords">soundcloud</a>
+    </div>
+  </div>
+</div>
+
+  <div class="pad-top w-left align-center">
+    <h1 class="ft-175 color-text anton space-title">HOME</h1>
+    <div class="space-social col-2 w-col justify-text ft-12 ">
+        <p>
+            Welcome to my portfolio !
+            My name is Alexandre Bouhand and i'm graphic &amp; web developper.
+            I've started web dev this year but I worked in communication since 7 years.
+            You can find all of my web and 
+            global projects on this website.
+            It's make with love.
+            Our storie start here...
+        </p>
+        <p class="txr-bold">Contact me.</p>
+    </div>
+  </div>
+  <div class="pad-top w-left align-center footer-page">
+    <nav class="">
+      <ul class="no-puce ab-flex space-b">
+        <li><a class="txr-bold color-text no-line" href="{{ path('home') }}">HOME</a></li>
+        <li><a class="txr-bold color-text no-line" href="{{ path('projects') }}">PROJECTS</a></li>
+        <li><a class="txr-bold color-text no-line" href="{{ path('about') }}">WHAT I DO</a></li>
+        <li><a class="txr-bold color-text no-line" href="{{ path('contact') }}">CONTACT</a></li>
+      </ul>
+    </nav>
+  </div>
+</div>
+
+
+<div class="split right">
+    <main>
+        <div class="content">
+            <div class="grid">
+                <div class="grid__item">
+                    <div class="pieces" style="background-image:url('img/1b.jpg')" data-image-alt="img/1b.jpg"></div>
+                    <h3 class="grid__item-title">WEB DEVELLOPER</h3>
+                    <span class="grid__item-deco line">Web</span>
+                </div>
+                <div class="grid__item">
+                    <div class="pieces" style="background-image:url(img/4b.jpg)" data-image-alt="img/4b.jpg"></div>
+                    <h3 class="grid__item-title">UX DESIGNER</h3>
+                    <span class="grid__item-deco line">UX</span>
+                </div>
+                <div class="grid__item">
+                    <div class="pieces" style="background-image:url(img/3b.jpg)" data-image-alt="img/3b.jpg"></div>
+                    <h3 class="grid__item-title">CLOBAL COMMUNICATION</h3>
+                    <span class="grid__item-deco line">Com'</span>
+                </div>
+                <div class="grid__item">
+                    <div class="pieces" style="background-image:url(img/2b.jpg)" data-image-alt="img/2b.jpg"></div>
+                    <h3 class="grid__item-title">EVENT ORGANISER</h3>
+                    <span class="grid__item-deco line">Event</span>
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
+
+{% endblock %}

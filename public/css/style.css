@@ -1,0 +1,97 @@
+*   {margin: 0;
+    padding: 0;
+    box-sizing: content-box;}
+
+/****************************************
+                    COLOR 
+*****************************************/
+
+.dark-blue {background-color: #0b3948; } /* TITLE // BACKGROUND // NAV // TEXT */ 
+.light-blue {background-color: #d9dbf1; } /* SUBTITLE */
+
+.border1     {color: #d0cdd7 ;}
+.border2     {color: #acb0bd ;}
+.border3     {color: #416165 ;}
+
+.color-white {color :#fff    ;}
+.color-text  {color :#0b3948 ;}
+
+
+/****************************************
+                    FONT 
+*****************************************/
+
+.rubik      {font-family: 'Rubik', sans-serif    ;}
+.anton      {font-family: 'Anton', sans-serif    ;}
+.markazi    {font-family: 'Markazi Text', serif  ;}
+
+.txr-bold {font-weight: 700;}
+.txt-norm {font-weight: 400;}
+.txt-thin {font-weight: 300;}
+
+.ft-175 {font-size: 145px ;}
+.ft-70  {font-size: 70px  ;}
+.ft-20  {font-size: 20px  ;}
+.ft-15  {font-size: 15px  ;}
+
+.justify-text {text-align: justify;}
+
+
+/****************************************
+                    TEXT
+*****************************************/
+.txt-right {text-align: right;}
+.txt-left {text-align: left;}
+
+/****************************************
+                  FLEX   
+*****************************************/
+
+.ab-flex        {display: flex                  ;}
+.flex-col       {flex-direction: column         ;}
+.align-center   {align-items: center            ;}
+.align-end      {align-items: flex-end          ;}
+.justify-center {justify-content: flex-end      ;}
+.space-b        {justify-content: space-between ;}
+
+/****************************************
+            MARGIN // PADDIN
+*****************************************/
+
+.m-top {margin-top: 50px;}
+.align-center {margin: 0 auto;}
+
+.pad-top {padding-top: 100px;}
+.pad-text {padding: 50px;}
+.pad-social {padding-left: 50px;}
+
+
+/****************************************
+                    STYLE
+*****************************************/
+
+.no-line {text-decoration: none;}
+.no-puce {list-style: none;}
+.space-social {letter-spacing: 3px;}
+.space-title {letter-spacing: 10px;}
+.col-2 {column-count: 2;}
+/****************************************
+                    LOGO
+*****************************************/
+
+.h-logo {height: 100px;}
+.w-logo {width: 150px;}
+
+
+/****************************************
+                    HEIGHT & WIDTH
+*****************************************/
+.h-nav  {height:  120px ;}
+.h-main {height:  600px ;}
+.w-left {width:   650px ;}
+
+
+
+
+
+

@@ -1,0 +1,48 @@
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+
+
+.pieces {
+	display: flex;
+	flex-wrap: wrap;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	}
+
+@media screen and (max-width: 40em) {
+	.message {
+		display: block;
+	}
+	.frame {
+		display: block;
+		height: auto;
+		position: relative;
+		text-align: center;
+		z-index: 10000;
+	}
+	.codrops-header {
+		flex-direction: column;
+	}
+	.codrops-header__title {
+		padding: 1em 0;
+		opacity: 1;
+		-webkit-writing-mode: horizontal-tb;
+    	writing-mode: horizontal-tb;
+	}
+	.codrops-icon {
+		display: inline-block;
+		margin: 0.25em;
+		padding: 0.25em;
+	}
+	.demos {
+		padding: 1em 0 0;
+	}
+	.demo {
+		margin: 0 0.5em 0.5em;
+	}
+}
